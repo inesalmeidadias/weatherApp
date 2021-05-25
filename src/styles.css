@@ -1,0 +1,115 @@
+body {
+  font-family: TT Commons;
+}
+
+p {
+  margin: 0px;
+  font-size: 20px;
+  color: #000000c5;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: 500;
+  color: #000000c5;
+}
+
+ul {
+  font-weight: 500;
+  font-size: 20px;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  color: #000000c5;
+}
+
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000c5;
+  font-weight: 400;
+}
+
+a:hover {
+  color: #00000050;
+  transition: all 250ms ease;
+}
+
+form {
+  position: relative;
+  top: 5px;
+}
+
+.container {
+  margin: 100px auto;
+  border: white;
+  box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  width: 500px;
+  height: 700px;
+  background-color: #f0f0f0;
+}
+
+.container2 {
+  margin: 30px auto;
+  background-color: #050505;
+  box-shadow: 4px 5px 8px 3px rgb(0 0 0 / 20%),
+    inset 2px 4px 10px 0 rgb(255 255 255 / 50%);
+  border-radius: 30px;
+}
+
+.week {
+  font-weight: 500;
+  text-align: center;
+  color: #f7931e;
+  font-size: 20px;
+}
+
+.max {
+  text-align: center;
+  color: #cccccc;
+  font-size: 20px;
+}
+
+.min {
+  text-align: center;
+  color: #808080;
+  font-size: 20px;
+}
+
+.rain {
+  width: 10px;
+}
+
+.humidity {
+  width: 8px;
+}
+
+.wind {
+  width: 12px;
+}
+
+.hours {
+  color: #000000c5;
+  text-align: center;
+}
+
+.mintemp {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.maxtemp {
+  position: relative;
+  right: 30px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
