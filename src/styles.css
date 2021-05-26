@@ -5,75 +5,70 @@ body {
 p {
   margin: 0px;
   font-size: 20px;
-  color: #000000c5;
+  color: #222222;
 }
 
 h2 {
   font-size: 60px;
-  font-weight: 500;
-  color: #000000c5;
+  font-weight: 400;
+  color: #222222;
 }
 
 ul {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 20px;
   list-style: none;
   margin: 0px;
   padding: 0px;
-  color: #000000c5;
+  color: #222222;
 }
 
 li {
   margin: 0px;
   padding: 0px;
+  font-size: 20px;
 }
 
 a {
-  font-size: 20px;
+  font-size: 15px;
   text-decoration: none;
-  color: #000000c5;
-  font-weight: 400;
+  color: #222222;
+  font-weight: 600;
 }
 
 a:hover {
-  color: #00000050;
+  color: #777777;
   transition: all 250ms ease;
-}
-
-form {
-  position: relative;
-  top: 5px;
 }
 
 .container {
   margin: 100px auto;
-  border: white;
-  box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
-    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
-  border-radius: 30px;
   width: 500px;
-  height: 700px;
-  background-color: #f0f0f0;
+  height: 510px;
+  border-radius: 30px;
+  background: #f0f0f0;
+  box-shadow: inset 6px 6px 9px #bababa, inset -6px -6px 9px #ffffff;
 }
 
 .container2 {
-  margin: 30px auto;
-  background-color: #050505;
-  box-shadow: 4px 5px 8px 3px rgb(0 0 0 / 20%),
-    inset 2px 4px 10px 0 rgb(255 255 255 / 50%);
+  color: #696969;
+  margin: 10px auto;
   border-radius: 30px;
+  background: linear-gradient(145deg, #d5d5d557, #fefefe17);
+  box-shadow: inset 1px 1px 3px #bababaa4, inset -1px -1px 3px #ffffff;
+  border: white;
 }
 
 .week {
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
-  color: #f7931e;
+  color: #222222;
   font-size: 20px;
 }
 
 .max {
   text-align: center;
-  color: #cccccc;
+  color: #222222;
   font-size: 20px;
 }
 
@@ -83,33 +78,41 @@ form {
   font-size: 20px;
 }
 
-.rain {
-  width: 10px;
-}
-
-.humidity {
-  width: 8px;
-}
-
-.wind {
-  width: 12px;
-}
-
-.hours {
-  color: #000000c5;
-  text-align: center;
-}
-
 .mintemp {
   font-size: 20px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .maxtemp {
   position: relative;
-  right: 30px;
+  right: 0px;
   font-size: 20px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 400;
+}
+
+.currentLocation {
+  margin: 10px auto;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #d5d5d5c2, #fefefe9a);
+  box-shadow: inset 1px 1px 3px #bababaa1, inset -1px -1px 3px #ffffff;
+  border: white;
+  width: 30px;
+  height: 30px;
+  color: #777777;
+}
+
+.form-control {
+  margin: 10px auto;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #d5d5d5c2, #fefefe9a);
+  box-shadow: inset 1px 1px 3px #bababaa1, inset -1px -1px 3px #ffffff;
+  border: white;
+  width: 150px;
+  height: 30px;
+}
+.card-img {
+  position: relative;
+  top: -40px;
 }
