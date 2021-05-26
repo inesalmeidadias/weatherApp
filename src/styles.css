@@ -116,3 +116,7 @@ a:hover {
   position: relative;
   top: -40px;
 }
+
+.credits {
+  text-align: center;
+}
